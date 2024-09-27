@@ -71,6 +71,8 @@ app.use((req, res, next) => {
   next();
 });
 
+console.log("Test")
+
 // 3) ROUTES  [Define all routes here]
 app.use('/api/v1/tours', tourRouter);
 app.use('/api/v1/users', userRouter);
